@@ -1,0 +1,57 @@
+.row {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .column {
+    flex: 1; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  .column img {
+    width: 100%; 
+    max-width: 600px; 
+    height: auto; 
+    margin: 10px;
+  }
+  
+  header {
+    text-align: center; 
+    padding: 30px 0; 
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Align the list items in a row */
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  nav li {
+    display: inline; /* Display list items inline */
+    margin-right: 40px; /* Adjust spacing between navigation items */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #3E5880;
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: bold; /* Optional: if you want the font to be bold */
+  }
+  
+  nav a:hover, nav a:focus {
+    color: #424be9;
+  }
+  
+  /* Other styles remain the same */
+  
+  body {
+    background-color: #FFF7F7;
+  }
+  
+

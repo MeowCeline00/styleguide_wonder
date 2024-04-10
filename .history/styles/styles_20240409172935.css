@@ -1,0 +1,132 @@
+.row {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .column {
+    flex: 1; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  .column img {
+    width: 100%; 
+    max-width: 600px; 
+    height: auto; 
+    margin: 10px;
+  }
+
+  
+  header {
+    text-align: center; 
+    padding: 25px 0; 
+  }
+  
+  nav ul {
+    list-style: none;
+    display: inline-block; 
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  nav li {
+    display: inline; 
+    margin-right: 150px; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #3E5880;
+    font-size: 16px; 
+    font-weight: bold;
+  }
+  
+  nav a:hover, nav a:focus {
+    color: #424be9;
+    text-decoration: underline solid #0c0c0c;
+  }
+  
+
+  
+  body {
+    background-color: #FFF7F7;
+  }
+
+  .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; 
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 1px; 
+    background-color: #3E5880; 
+    margin: 0 10px;
+  }
+  
+  .title {
+    white-space: nowrap; 
+    padding: 0 10px; 
+    color: #3E5880;
+    font-size: 50px; 
+    font-family: "Cardo";
+  }
+  
+  .secondpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+    padding-left: auto;
+    padding-right: auto;
+  }
+  
+  .mockup, .logo_blue {
+    padding: 10px; 
+  }
+  
+  .divider {
+    width: 1px;
+    height: 400px; 
+    background-color: #3E5880; 
+    margin: 0 20px; 
+    margin-right: 140px;
+  }
+  
+  .blacknwhite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+  }
+  
+  #back-to-top {
+    position: fixed; 
+    bottom: 20px; /* Position from the bottom */
+    right: 30px; /* Position from the right */
+    background-color: #3E5880; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change mouse pointer on hover */
+    opacity: 0; /* Start with button transparent */
+    transition: opacity 0.3s; /* Animate the opacity changes */
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  
+  /* Only show the button after scrolling down a bit */
+  body:not(.top) #back-to-top {
+    opacity: 1;
+  }
+  
+  
+

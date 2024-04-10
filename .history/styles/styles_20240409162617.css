@@ -1,0 +1,88 @@
+.row {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .column {
+    flex: 1; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  .column img {
+    width: 100%; 
+    max-width: 600px; 
+    height: auto; 
+    margin: 10px;
+  }
+
+
+  .secondpage {
+    display: inline;
+    padding: 20%;
+    justify-content: center;
+  }
+
+  
+  header {
+    text-align: center; 
+    padding: 25px 0; 
+  }
+  
+  nav ul {
+    list-style: none;
+    display: inline-block; 
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  nav li {
+    display: inline; 
+    margin-right: 150px; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #3E5880;
+    font-size: 16px; 
+    font-weight: bold;
+  }
+  
+  nav a:hover, nav a:focus {
+    color: #424be9;
+    text-decoration: underline solid #0c0c0c;
+  }
+  
+
+  
+  body {
+    background-color: #FFF7F7;
+  }
+
+  .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; 
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 1px; 
+    background-color: #3E5880; 
+    margin: 0 10px;
+  }
+  
+  .title {
+    white-space: nowrap; /* Prevents the title from wrapping */
+    padding: 0 10px; /* Adds some space around the title text */
+    color: #3E5880; /* Adjust the color as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+    /* Add your font-family and other styles */
+  }
+  
+  
+

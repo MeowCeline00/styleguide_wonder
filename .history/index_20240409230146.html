@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderland Style Guide</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#logo">Logo</a></li>
+                <li><a href="#color-variations">Color Variations</a></li>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#imagery">Imagery</a></li>
+            </ul>
+        </nav>
+        <hr style="width: 90%;" />
+        
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="row">
+                <div class="column">
+                  <img src="./images/alice_icon.png" alt="alice_icon" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="./images/main.png" alt="main_logo" style="width:100%">
+                </div>
+              </div>
+        </section>
+
+        <div class="title-container">
+            <div class="line"></div>
+            <h2 class="title">Logo Variations</h2>
+            <div class="line"></div>
+        </div>
+                
+        <section id="logo">
+            <div class="secondpage">
+              <div class="mockup">
+                <img src="./images/mockup.png" alt="mockup" style="width: 600px;">
+              </div>  
+              <div class="divider"></div> 
+              <div class="logo_blue">
+                <img src="./images/logo_blue.png" alt="logo_blue" style="width: 400px;">
+              </div>
+            </div>
+            <div class="blacknwhite">
+                <img src="./images/rabbit_bw.png" alt="rabbit_bw" style="width: 30%;">
+            </div>
+
+            <div class="logo_des">
+                <img src="./images/logo_idea.png" alt="logo_idea" style="width: %;">
+            </div>
+          </section>
+
+          <hr style="width: 90%;" />
+        
+        <section id="color-variations">
+             <div class="title-container">
+            <div class="line"></div>
+            <h2 class="title">Colour Palette</h2>
+            <div class="line"></div>
+        </div>
+    
+            <div class="color_palette">
+                <img src="./images/off_white.png" alt="off_white" class="color_guide_img color_guide_item--1">
+                <img src="./images/azure_blue.png" alt="azure_blue" class="color_guide_img color_guide_item--2">
+                <img src="./images/midnight.png" alt="midnight" class="color_guide_img color_guide_item--3">
+                <img src="./images/scarlet.png" alt="scarlet" class="color_guide_img color_guide_item--4">
+                <img src="./images/dandelion.png" alt="dandelion" class="color_guide_img color_guide_item--5">
+            </div>
+            <hr style="width: 90%;" />
+            
+        </div>
+        </section>
+        
+        <section id="typography">
+            <div class="title-container">
+                <div class="line"></div>
+                <h2 class="title">Typography</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="typo_img">
+                <img src="./images/typo.png" alt="typo" style="width: 30%;">
+            </div>
+
+            <div class="typo_paragraph">
+                <p>"Arthea Script" serves as our exclusive "Display" font, reserved solely for logos and page <br /> headers to embody the essence of our brand. The goal is to make users’ feel as if they are <br /> inside a fairytale book and we have chosen this font as its aesthetic imbues a sense of whimsy <br /> and enchantment, evoking a nostalgic charm reminiscent of classic fairytales.</p>
+            </div>
+
+            <div class="font_style">
+                <div class="font">
+                    <img src="./images/cardo.png" alt="cardo" style="width: 80%;">
+                </div>
+                <div class="heading">
+                    <img src="./images/heading.png" alt="heading" style="width: 80%;">
+                </div>
+            </div>
+
+            <hr style="width: 90%;" />
+
+        </section>
+        
+        <section id="imagery">
+
+            <div class="title-container">
+                <div class="line"></div>
+                <h2 class="title">Imagery</h2>
+                <div class="line"></div>
+            </div>
+
+        </section>
+        
+    </main>
+
+    
+    <footer>
+        <p>© MDIA 2106 Design 2 Wonderland Style Guide by Jillian and Celine 2024</p>
+    </footer>
+
+
+<button id="back-to-top" title="Go to top">Top</button>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.body.classList.remove('top');
+    } else {
+      document.body.classList.add('top');
+    }
+  });
+
+  var mybutton = document.getElementById('back-to-top');
+
+  window.onscroll = function() {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.body.classList.remove('top');
+    } else {
+      document.body.classList.add('top');
+    }
+  }
+
+  mybutton.onclick = function() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
+  };
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
